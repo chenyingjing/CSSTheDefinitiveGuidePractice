@@ -1,0 +1,6 @@
+p.emph {text-decoration: underline;}
+p.topper {text-decoration: overline;}
+p.old {text-decoration: line-through;}
+p.annoy {text-decoration: blink;}
+p.plain {text-decoration: none;}
+a {text-decoration: underline overline line-through;}

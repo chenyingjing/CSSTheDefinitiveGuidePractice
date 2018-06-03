@@ -1,0 +1,3 @@
+table {border-collapse: separate; border-spacing: 3px 5px;
+    padding: 10px; border: 2px solid black; empty-cells: hide;}
+td {border: 1px solid gray;}

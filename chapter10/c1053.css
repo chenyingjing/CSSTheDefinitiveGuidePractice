@@ -1,0 +1,10 @@
+div {margin: 1em; position: relative; width: 40em; height: 40em; background: silver;}
+p {border: solid 1px;}
+p#first {position: absolute; top: 0; left: 0; width: 20%; height: 10em; z-index: 8;
+    border: solid 1px; background: seashell;}
+p#second {position: absolute; top: 0; left: 10%; width: 30%; height: 5em; z-index: 4;
+    text-align: right; background: salmon;}
+p#third {position: absolute; top: 15%; left: 5%; width: 15%; height: 10em; z-index: 1; text-align: right;
+    background: rebeccapurple;}
+p#fourth {position: absolute; top: 10%; left: 15%; width: 40%; height: 10em; z-index: 0; text-align: right;
+    background: red;}

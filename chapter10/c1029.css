@@ -1,0 +1,2 @@
+div#sidebar {position: absolute; top: 0; left: 0; width: 5em; height: 7em;
+    clip: rect(1em 4em 6em 1em);background: silver;}

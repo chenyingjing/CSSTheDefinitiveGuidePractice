@@ -1,0 +1,5 @@
+table {table-layout: fixed; width: 400px; border-collapse: collapse;}
+td {border: 1px solid;}
+col#c1 {width: 200px;}
+#r1c2 {width: 75px;}
+#r1c3 {width: 5px;}

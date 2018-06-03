@@ -1,0 +1,5 @@
+h1 {border-left: 3px solid gray;
+border-right: black 0.25em dotted;
+border-top: thick silver inset;
+border-bottom: double rgb(33%, 33%, 33%) 10px;}
+p.roof {border-top: dashed;}

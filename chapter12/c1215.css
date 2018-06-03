@@ -1,0 +1,4 @@
+blockquote {display: block;}
+blockquote {quotes: '"' '"' "'" "'" '"' '"'}
+blockquote p::before {content: open-quote;}
+blockquote p::after {content: no-close-quote;}

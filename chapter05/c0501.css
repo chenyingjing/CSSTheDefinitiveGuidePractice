@@ -1,0 +1,11 @@
+body {font-family: serif;}
+h1, h2, h3, h4 {font-family: "Karrank%", "Georgia", sans-serif;}
+code, pre, tt, span.input {font-family: monospace;}
+p.signature {font-family: cursive;}
+b {font-weight: bold;}
+p {font-weight: normal;}
+p em {font-weight: bolder;}
+h1 {font-weight: bold;}
+h1 b {font-weight: bolder;}
+div {font-weight: 100}
+div strong {font-weight: bolder;}

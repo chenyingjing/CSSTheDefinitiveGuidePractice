@@ -1,0 +1,4 @@
+.inside {list-style-position: inside;}
+.outside {list-style-position: outside;}
+ul {border: 1px dashed}
+li {border: 1px dashed}

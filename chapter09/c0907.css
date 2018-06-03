@@ -1,0 +1,3 @@
+/* * {background-image: url(yin-yang-small.jpg);} */
+body {background-image: url(yin-yang-small.jpg);}
+* {background-image: inherit;}

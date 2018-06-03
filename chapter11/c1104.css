@@ -1,0 +1,45 @@
+.table1 {
+    display: table;
+    border: 1px solid;
+}
+
+.tbody1 {
+    display: table-row-group;
+    color: blue;
+    height: 50px;
+}
+
+.tr1 {
+    display: table-row;
+}
+
+.td1 {
+    display: table-cell;
+    border: solid 1px black;
+}
+
+.thead1 {
+    display: table-header-group;
+    color: green;
+}
+
+.tfoot1 {
+    display: table-footer-group;
+    color: red;
+}
+
+.b1 {
+    font-weight: bold;
+}
+
+.clg1 {
+    display: table-column-group;
+}
+
+.col1 {
+    display: table-column;
+}
+
+.cap1 {
+    display: table-caption;
+}

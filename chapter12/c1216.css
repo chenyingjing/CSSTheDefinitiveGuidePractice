@@ -1,0 +1,4 @@
+list[type="ordered"] {counter-reset: chapter;}
+list[type="ordered"] item {display: block;}
+list[type="ordered"] item:before {counter-increment: chapter;
+content: counter(chapter) ". "; margin: 0.25em 0;}

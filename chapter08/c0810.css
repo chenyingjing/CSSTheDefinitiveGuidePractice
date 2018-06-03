@@ -1,0 +1,9 @@
+body {color: purple;}
+a:link img {border-style: outset; color: silver}
+p.aside {border-style: solid dashed dotted solid;}
+p.new1 {border-style: solid dashed none;}
+p.new2 {border-style: solid dashed none dashed;}
+/* h1 {border-style: solid solid solid none;} */
+h1 {border-style: solid; border-left-style: none;}
+h1 {border-top-width: thin; border-left-width: medium;
+    border-right-width: medium; border-bottom-width: thick;}

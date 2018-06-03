@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>c1207</title>
+        <style>
+            a[href]:before {content: "(link) ";}
+            a.pdf-doc::after {content: url(pdf-icon.png);}
+            a.pdf-doc {border: 1px solid gray;}
+            em::after {content: " (!) "; left: 2em;}
+            h1::before {content: "New Section"; display: block; color: gray;}
+            p {color: green;}
+            p::before {content: "::: "; color: purple;}
+        </style>
+    </head>
+    <body>
+        <h1>The Secret Life of Salmon</h1>
+        <p>
+            <a href="http://www.baidu.com">Jeffrey</a> seems to be <a href="http://www.baidu.com">very happy</a> 
+            about <a href="http://www.baidu.com">something,</a> althought I can't quite work out whether his 
+            happiness is over <a href="http://www.baidu.com">OS X</a>, <a href="http://www.baidu.com">Chimera</a>, 
+            the <em>ability</em> to run the Dock and <a href="http://www.baidu.com">DragThing</a> at the same time, 
+            the latter half of my <a href="http://www.baidu.com">journal entry from yesterday</a>, or 
+            <a href="http://www.baidu.com">journal entry from yesterday</a>, or 
+            <a href="http://www.baidu.com" class="pdf-doc">something else entirely</a>.
+        </p>
+    </body>
+</html>

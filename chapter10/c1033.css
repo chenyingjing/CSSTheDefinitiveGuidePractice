@@ -1,0 +1,5 @@
+p {margin: 2em;}
+p.contain {position: relative;}
+b {position: absolute; top: auto; right: 0; bottom: 0; left: auto;
+    width: 8em; height: 5em; border: 1px solid gray;}
+body {position: relative;}

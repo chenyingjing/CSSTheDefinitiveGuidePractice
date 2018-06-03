@@ -1,0 +1,7 @@
+p.spread {word-spacing: 0.5em;}
+p.tight {word-spacing: -0.5em;}
+p.base {word-spacing: normal;}
+p.norm {word-spacing: 0;}
+p {letter-spacing: 0;}
+p.spacious {letter-spacing: 0.25em;}
+p.tight {letter-spacing: -0.25em;}

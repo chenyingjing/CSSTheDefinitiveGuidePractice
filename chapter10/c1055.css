@@ -1,0 +1,3 @@
+div#header {position: fixed; top: 0; bottom: 80%; left: 20%; right: 0; background: gray;}
+div#sidebar {position: fixed; top: 0; bottom: 0; left: 0; right: 80%; background: silver;}
+div#main {position: absolute; top: 20%; bottom: 0; left: 20%; right: 0; overflow: scroll; background: white;}

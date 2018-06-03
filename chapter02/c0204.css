@@ -1,0 +1,9 @@
+a:link {color:navy}
+a:visited {color:gray}
+a:hover{color:red; font-size: 20px;}
+a:active{color:yellow}
+:focus{color:red}
+h2:first-letter {font-size: 200%}
+p:first-line {color: purple}
+h2::before {content: "}}"; color: silver;}
+body:after {content: "   The End.";}

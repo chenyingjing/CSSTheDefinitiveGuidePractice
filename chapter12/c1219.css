@@ -1,0 +1,4 @@
+code[type="BASIC"] {counter-reset: linenum; font-family: monospace;}
+code[type="BASIC"] line {display: block;}
+code[type="BASIC"] line::before {counter-increment: linenum;
+    content: counter(linenum) ": ";}

@@ -1,0 +1,5 @@
+div {background: silver; border: 1px solid;}
+p {margin: 1em;background-color: wheat}
+p.punch {background: white; margin: 1em -1px 1em 25%;
+    border: 1px solid; border-right: none; text-align: center;}
+p.mond {background: #333; color: white; margin: 1em 3em -3em -3em;}

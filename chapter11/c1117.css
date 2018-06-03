@@ -1,0 +1,6 @@
+table {table-layout: auto; width: 20em; border-collapse: separate; border-spacing: 3px;}
+td {border: 1px solid; background: silver; padding: 0;}
+div {border: 1px dashed gray; background: white;}
+#r1c1 {vertical-align: top; height: 10em;}
+#r1c2 {vertical-align: middle;}
+#r1c3 {vertical-align: bottom;}

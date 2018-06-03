@@ -1,0 +1,9 @@
+/* h1 {border-bottom-width: thick;
+border-bottom-style: solid;
+border-bottom-color: gray;} */
+
+/* h1 {border-width: 0 0 thick;
+border-style: none none solid;
+border-color: gray;} */
+
+h1 {border-bottom: thick solid gray;}

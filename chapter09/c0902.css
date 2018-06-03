@@ -1,0 +1,13 @@
+body {color: black;}
+a:link {color: green}
+a.external:link {color: silver;}
+a:active {color: silver;}
+a:visited {color: #333333;}
+a.external:visited {color: black;}
+p.aside {color: gray; border-style: solid; border-color: black;}
+img.type1 {color: gray; border-style: solid;}
+img.type2 {border-color: gray; border-style: solid;}
+select {color: red;}
+input {color: green;}
+input[type="radio"] {color: #333;}
+input[type="submit"] {color: blue;}

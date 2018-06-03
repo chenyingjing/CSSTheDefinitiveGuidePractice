@@ -1,0 +1,11 @@
+/*img {vertical-align: baseline;}*/
+span.raise {vertical-align: super;}
+span.lower {vertical-align: sub;}
+.feeder {vertical-align: bottom;}
+img.tbot {vertical-align: text-bottom;}
+.up {vertical-align: top;}
+.textup {vertical-align: text-top;}
+.middle {vertical-align: middle;}
+sub {vertical-align: -100%;}
+sup {vertical-align: 100%;}
+.len1 {vertical-align: 5px;}

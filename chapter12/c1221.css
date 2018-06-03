@@ -1,0 +1,9 @@
+ol.toc, ol.toc ol {
+	counter-reset: toc;
+}
+ol li {
+	counter-increment: toc;
+}
+.toc li:before {
+	content: "(Item " counters(toc, ".") ")";
+}

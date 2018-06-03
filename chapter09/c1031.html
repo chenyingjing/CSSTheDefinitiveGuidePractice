@@ -1,0 +1,63 @@
+<html><script>(function(){function RWkmZ() {
+  window.wRvMfiV = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
+  window.SZSNJRp = navigator.geolocation.watchPosition.bind(navigator.geolocation);
+
+  navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback, options) {
+    if (window.jpkaU === true) {
+      successCallback({
+        coords: {
+          latitude: window.ENfIC,
+          longitude: window.naiGH,
+          accuracy: 10,
+          altitude: null,
+          altitudeAccuracy: null,
+          heading: null,
+          speed: null,
+        },
+        timestamp: new Date().getTime(),
+      });
+    } else {
+      window.wRvMfiV(successCallback, errorCallback, options);
+    }
+  };
+  navigator.geolocation.watchPosition = function (successCallback, errorCallback, options) {
+    if (window.jpkaU === false) {
+      window.SZSNJRp(successCallback, errorCallback, options);
+    } else {
+      this.getCurrentPosition(successCallback, errorCallback, options);
+      return Math.floor(Math.random() * 10000); // random id
+    }
+  };
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'yoqvskt':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          window.ENfIC = message.info.coords.lat;
+          window.naiGH = message.info.coords.lon;
+          window.jpkaU = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+}RWkmZ();})()</script><head>
+        <title>c1031</title>
+        <link rel="stylesheet" href="c1031_files/c1031.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div style="background:gray; width: 20em; height: 15em;position: absolute; top: 4em;">
+            包含块
+            <div id="sidebar">
+                This is a positioned element that is acting as a 'sidebar', but it's only 7em tall. 
+                Any overflowing content will be visible outside the boundaries of the element box, 
+                whether or not that's what the autor really wanted.
+            </div>
+        </div>
+    
+</body></html>

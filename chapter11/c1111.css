@@ -1,0 +1,4 @@
+table {border-collapse: separate; border-spacing: 3px 5px;
+    padding: 10px; border: 2px solid black;}
+td {border: 1px solid gray;}
+td#squeeze {border-width: 5px;}

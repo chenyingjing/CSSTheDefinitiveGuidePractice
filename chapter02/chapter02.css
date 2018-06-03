@@ -1,0 +1,4 @@
+div, h1 {color:red;}
+.warning {font-weight: bold;}
+.urgent {font-style: italic;}
+.warning.urgent {background: silver;}

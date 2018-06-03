@@ -1,0 +1,8 @@
+h1[class] {color: silver;}
+a[href="www.baidu.com"] {font-weight: bold; background: red}
+p[class~="warning"] {font-weight: bold;}
+
+*[lang|="en"] {color: white; background: green;}
+/*
+[lang^="en"] {color: white; background: green;}
+*/

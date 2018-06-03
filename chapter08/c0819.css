@@ -1,0 +1,4 @@
+p {margin: 1em 0; padding: 1em 0;}
+p.one, p.three {background: gray;}
+p.two, p.four {background: silver;}
+p.three, p.four {margin: 0;}

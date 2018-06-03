@@ -1,0 +1,9 @@
+table {table-layout: auto; width: auto; border-collapse: collapse;}
+td {border: 1px solid;}
+col#c3 {width: 25%;}
+#r1c2 {width: 40%;}
+#r2c2 {width: 50px;}
+#r2c3 {width: 35px;}
+#r4c1 {width: 100px;}
+#r4c4 {width: 1px;}
+

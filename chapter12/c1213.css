@@ -1,0 +1,6 @@
+quotation {display: block;}
+quote {quotes: '\201C' "\201D"}
+quote::before {content: open-quote;}
+quote::after {content: close-quote;}
+quotee::before {content: " (";}
+quotee::after {content: ") ";}

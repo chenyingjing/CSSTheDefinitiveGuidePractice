@@ -1,0 +1,13 @@
+body {counter-reset: chapter}
+h1 {counter-reset: section subsec; counter-increment: chapter;}
+h2 {counter-reset: subsec; counter-increment: section;}
+h3 {counter-increment: subsec;}
+h1::before {
+    content: counter(chapter, upper-alpha) ". ";
+}
+h2::before {
+    content: counter(chapter, upper-alpha) "." counter(section) ". ";
+}
+h3::before {
+    content: counter(chapter, upper-alpha) "." counter(section) "." counter(subsec, lower-roman) ". ";
+}

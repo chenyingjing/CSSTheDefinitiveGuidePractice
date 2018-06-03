@@ -1,0 +1,2 @@
+#masthead {position: relative; border: 1px solid black; top: 1em; left: 1em; width: 50em; height: 10em; margin: 0;}
+#masthead h1 {position: absolute; top: auto; left: auto; background: silver;}

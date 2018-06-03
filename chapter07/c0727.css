@@ -1,0 +1,2 @@
+#rollcall li {display: inline; border-right: 1px solid; padding: 0 0.33em;}
+#rollcall li:first-child {border-left: 1px solid;}

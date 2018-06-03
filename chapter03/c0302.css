@@ -1,0 +1,6 @@
+h1 {color: gray;}
+* {color: black;}
+:link {color: blue;}
+:visited {color: purple;}
+:hover {color: red;}
+:active {color: orange;}

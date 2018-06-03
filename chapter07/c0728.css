@@ -1,0 +1,6 @@
+div {margin: 1em 0; border: 1px solid;}
+p {border: 1px dotted;}
+div#one p {display: block; width: 6em; text-align: center;}
+div#two p {display: inline; width: 6em; text-align: center;}
+div#three p {display: inline-block; width: 6em; }
+#navbar a {display: inline-block; width: 20%;}
